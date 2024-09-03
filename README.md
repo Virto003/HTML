@@ -152,8 +152,30 @@ Sendo `<ol>` a tag que define que a lista é ordenada e `<li>` a tag que define 
 
 Sendo `<ul>` a tag que define que a lista é desordenada e `<li>` a tag que define os itens da lista.
 
+
 ## Links
 
+Para criar links no HTML, usamos a tag **`<a>`** com o atributo `href`.
+
+As tags `<a>` são tags inline, o que significa que elas podem ser inseridas no meio de um texto sem quebrar o fluxo.
+
+Além de textos, dentro da tag `<a>`, podemos inserir outros elementos, como imagens.
+
+### Exemplos:
+
+- Link com texto:
+
+  ```html
+  <a href="https://www.exemplo.com">Clique aqui para visitar o site</a>
+  ```
+
+- Link com imagem:
+
+  ```html
+  <a href="https://www.exemplo.com">
+      <img src="imagem.png" alt="Descrição da imagem">
+  </a>
+  ```
 
 ## Formulários
 
