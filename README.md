@@ -61,15 +61,10 @@ As tags inline são aquelas que ocupam apenas o espaço necessário dentro da p�
 
 ## Tags de Cabeçalho
 
-(Texte aqui sobre as tags de cabeçalho como `<h1>`, `<h2>`, etc., se necessário.)
-
 ## Tags de Bloco
 
-(Texte aqui sobre tags de bloco como `<div>`, `<p>`, `<section>`, etc.)
 
 ## Tabelas
-
-(Texte aqui sobre como criar tabelas e inserir dados.)
 
 ## Listas
 
@@ -101,15 +96,6 @@ Sendo `<ul>` a tag que define que a lista é desordenada e `<li>` a tag que defi
 
 ## Links
 
-(Texte aqui sobre como trabalhar com links em HTML.)
 
 ## Formulários
 
-(Texte aqui sobre como criar formulários com elementos de controle como `<input>`, `<textarea>`, `<select>`, etc.)
-
----
-
-Este guia básico apresenta a estrutura de HTML e como utilizar as principais tags e atributos para criar páginas web. Explore e experimente cada conceito para fortalecer seu entendimento!
-```
-
-Você pode ajustar as seções em que eu sugeri mais texto (`Tags de Cabeçalho`, `Tags de Bloco`, `Tabelas`, `Links`, `Formulários`) conforme seus conhecimentos e exemplos específicos. Se precisar de mais alguma coisa, é só avisar!
