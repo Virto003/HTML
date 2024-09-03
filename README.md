@@ -66,6 +66,64 @@ As tags inline são aquelas que ocupam apenas o espaço necessário dentro da p�
 
 ## Tabelas
 
+## Tabelas em HTML
+
+No HTML, as tabelas são compostas por linhas e células que organizam os dados em um formato tabular. Para criar uma tabela, é necessário usar a tag **`<table>`**.
+
+### Estrutura Básica de uma Tabela
+
+Dentro da tag `<table>`, podemos usar as seguintes tags para agrupar e organizar o conteúdo:
+
+- **`<thead>`**: Define o cabeçalho da tabela.
+- **`<tbody>`**: Define o corpo da tabela.
+- **`<tfoot>`**: Define o rodapé da tabela.
+
+Dentro de cada grupo, podemos usar as tags **`<tr>`** para definir as linhas. Dentro das linhas, usamos:
+
+- **`<th>`**: Define as células de cabeçalho. Essas células são geralmente usadas para descrever o conteúdo das colunas.
+- **`<td>`**: Define as células de dados padrão.
+
+### Exemplo de Tabela
+
+```html
+<table>
+    <!-- Cabeçalho da Tabela -->
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+    </thead>
+
+    <!-- Corpo da Tabela -->
+    <tbody>
+        <tr>
+            <td>Victor</td>
+            <td>19</td>
+            <td>Itu</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>22</td>
+            <td>São Paulo</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>25</td>
+            <td>Rio de Janeiro</td>
+        </tr>
+    </tbody>
+
+    <!-- Rodapé da Tabela -->
+    <tfoot>
+        <tr>
+            <td colspan="3">Total de registros: 3</td>
+        </tr>
+    </tfoot>
+</table>
+```
+
 ## Listas
 
 As listas em HTML podem ser ordenadas ou não.
