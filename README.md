@@ -1,4 +1,4 @@
-```markdown
+
 # Estrutura Básica de HTML
 
 ## Tags em HTML
