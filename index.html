@@ -6,8 +6,15 @@
     <title>Conhecimentos em HTML</title>
   </head>
   <body>
+    <section>
+      <h1>Tags Inline</h1>
+      <p>
+        Este é um parágrafo com
+        <span style="color: blue">texto azul</span> usando uma tag <code>&lt;span&gt;</code>. Esse texto está em <strong>negrito</strong> e esse está em <em>itálico</em>.
+      </p>
+    </section>
+    <section>
     <h1>Tabelas</h1>
-
     <table border="1">
       <thead>
         <tr>
@@ -39,6 +46,8 @@
         </tr>
       </tfoot>
     </table>
+    </section>
+    <section>
     <h1>Listas</h1>
     <h2>Lista Ordenadas</h2>
     <ol>
@@ -72,10 +81,40 @@
       <li>Item 2</li>
       <li>Item 3</li>
     </ul>
+    </section>
+    <section>
     <h1>Links</h1>
     <a href="https://www.exemplo.com">
       <img src="imagem.png" alt="Descrição da imagem" />
     </a>
     <a href="https://www.exemplo.com">Clique aqui para visitar o site</a>
+    </section>
+    <section>
+        <h1>Como Criar Formulários</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" min="0" max="100"><br><br>
+
+            <label for="cidade">Cidade:</label>
+            <select id="cidade" name="cidade">
+                <option value="itu">Itu</option>
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+            </select><br><br>
+
+            <label>
+                <input type="checkbox" name="newsletter" value="sim"> Desejo receber a newsletter
+            </label><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
   </body>
 </html>
