@@ -97,6 +97,37 @@ Diferente das tags inline, as tags de bloco ocupam todo o espaço da página e s
   ```
 
 ## Tags de Cabeçalho
+O `<head>` em um documento HTML contém meta-informações sobre a página, como dados de codificação, links para recursos externos e descrições.
+
+### Meta Tags
+
+1. **`<meta charset="UTF-8">`**:
+   Define a codificação de caracteres da página, permitindo que a página seja exibida corretamente em diferentes idiomas. O `UTF-8` é a codificação mais comum.
+
+2. **`<meta name="viewport" content="width=device-width, initial-scale=1.0">`**:
+   Controla como a página será exibida em dispositivos móveis, garantindo que ela seja responsiva. O atributo `width=device-width` ajusta a largura da página para o tamanho da tela do dispositivo, e `initial-scale=1.0` garante que o zoom inicial seja de 100%.
+
+3. **`<meta name="description" content="Página de demonstração de conhecimentos em HTML">`**:
+   Fornece uma breve descrição da página, usada por mecanismos de busca para entender o conteúdo da página.
+
+4. **`<meta name="keywords" content="HTML, exemplo, tabelas, listas, links">`**:
+   Lista palavras-chave relacionadas ao conteúdo da página, o que pode ajudar os motores de busca.
+
+5. **`<meta name="author" content="Victor">`**:
+   Define o autor da página.
+
+### Links Externos
+
+6. **`<link rel="stylesheet" href="styles.css">`**:
+   Inclui um CSS externa para estilizar a página.
+
+7. **`<link rel="icon" href="favicon.ico" type="image/x-icon">`**:
+   Define o ícone (favicon) que aparece na aba do navegador ou na barra de endereços ao lado do título da página.
+
+### Título
+
+8. **`<title>Conhecimentos em HTML</title>`**:
+   Define o título da página.
 
 ## Tabelas
 
